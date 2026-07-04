@@ -43,7 +43,7 @@ class Shape:
   def generate_coords(self):
     raise NotImplementedError
 
-  def coord_check(self):
+  def coord_check(self, x, y):
     raise NotImplementedError
 
   def overlaps(self, other):
